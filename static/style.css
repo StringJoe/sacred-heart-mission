@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(203, 204, 204);
+}
+
+header, main, footer {
+    min-width: 100%;
+}
+
+header .container, main .container, footer .container {
+    /* was originally 555 px */
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(148, 14, 14);
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+a:link  {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav-bar a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-bar a:active {
+    text-decoration: none;
+    color: yellow
+}
+
+.container hr {
+    width: 100%; 
+    border-color: black; 
+    background: black;
+    height: 2px;
+}
+
+.nav-bar {
+    margin: auto;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: aliceblue;
+}
+
+.nav-bar ul {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.main-body {
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    padding-top: 10px;
+
+}
+
+.main-body h2 {
+    padding-top: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.side-bar {
+    float: right;
+    background-color: silver;
+    width: 30%;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.img-background {
+    background-color: white;
+}
+
+.main-body p {
+    margin-top: 10px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.spacing {
+    padding-top: 5px;
+}
