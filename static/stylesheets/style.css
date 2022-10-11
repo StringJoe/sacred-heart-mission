@@ -3,12 +3,12 @@ body {
 }
 
 header, main, footer {
-    min-width: 100%;
+    min-width: 855px;
 }
 
 header .container, main .container, footer .container {
     /* was originally 555 px */
-    max-width: 100%;
+    max-width: 1855px;
     margin: auto;
 }
 
@@ -19,7 +19,7 @@ header {
 header h1 {
     color: aliceblue;
     font-size: 50px;
-    width: 500px;
+    width: 100%;
     text-align: center;
     margin: auto;
     padding-top: 50px;
