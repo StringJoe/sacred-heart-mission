@@ -1,4 +1,34 @@
-#email-color {
-    text-align: center;
-    margin-top: 25px;
+#email-color:link {
+    text-decoration: none;
+    color: maroon;
 }
+
+#email-color:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+#email-color:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+#italics {
+    font-style: italic;
+}
+
+#italics a:link {
+    text-decoration: none;
+    color: maroon;
+}
+
+#italics a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+#italics a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
